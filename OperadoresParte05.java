@@ -1,0 +1,25 @@
+package flamingo.aprendendo.basico;
+
+public class OperadoresParte05 {
+    public static void main(String[] args){
+        // Operadores de atribuição
+
+        /*
+        * = atribução simples
+        * += soma e atribuir
+        *  -= multipicação e atribuição
+        * /= divisão e atribuição
+        * %= resto da divisão e atribuição
+         */
+        double totalcompra = 0;
+
+        totalcompra += 50;
+        totalcompra += 100;
+        totalcompra += 50;
+
+        totalcompra /= 2;
+
+        System.out.printf("Total de compra = %.2f", totalcompra);
+
+    }
+}
